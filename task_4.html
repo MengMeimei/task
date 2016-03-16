@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>任务4：定位和居中问题</title>
+	<style type="text/css">
+	*{margin:0px;padding: 0px;}
+	#main{
+		width:400px;
+		height:200px;
+		background: #ccc;
+		position:absolute;
+		top:50%;
+		left:50%;
+		margin:-100px 0 0 -200px;
+		overflow: hidden;
+		}
+	.circle{
+		position: absolute;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            background:#fc0;
+		}
+	.leftTop{
+            left:-50px;
+            top:-50px;
+        }
+    .rightBottom{
+            top:150px;
+            left:350px;
+    	}
+	</style>
+</head>
+<body>
+<!--长方形div开始-->
+	<div id="main">
+	<!--左上角四分之一圆div开始-->
+		<div class="leftTop circle">
+			
+		</div>
+	<!--左上角四分之一圆div结束-->
+	<!--右下角四分之一圆div开始-->
+		<div class="rightBottom circle">
+			
+		</div>
+	<!--右下角四分之一圆div结束-->	
+	</div>
+<!--长方形div结束-->
+</body>
+</html>
